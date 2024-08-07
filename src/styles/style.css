@@ -46,8 +46,8 @@ body {
   padding: 12px;
   cursor: pointer;
   margin-bottom: 10px; /*espaço accordion*/
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 button.accordion-header {
