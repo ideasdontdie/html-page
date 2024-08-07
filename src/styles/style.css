@@ -60,17 +60,13 @@ button.accordion-header {
   width: 99%;
 }
 
-.accordion-header span {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
 .accordion-body {
   opacity: 0;
   max-height: auto;
   transition: opacity 0.15s ease, max-height 0.15s ease;
   padding-top: 0;
-  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .accordion-body.active {
