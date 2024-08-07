@@ -70,6 +70,6 @@ button.accordion-header {
 
 .accordion-body.active {
   opacity: 1;
-  max-height: 25px; /*tamanho maximo box*/
+  max-height: 150px; /*tamanho maximo box*/
   padding-top: 25px;
 }
