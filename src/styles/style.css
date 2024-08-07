@@ -46,6 +46,8 @@ body {
   padding: 12px;
   cursor: pointer;
   margin-bottom: 10px; /*espaço accordion*/
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 button.accordion-header {
@@ -60,22 +62,15 @@ button.accordion-header {
   width: 99%;
 }
 
-.accordion-header span {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
 .accordion-body {
   opacity: 0;
-  max-height: auto;
-  transition: opacity 0.15s ease, max-height 0.15s ease;
+  max-height: 0;
+  transition: opacity 0s ease, max-height 0.15s ease;
   padding-top: 0;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .accordion-body.active {
   opacity: 1;
-  max-height: 300; /*tamanho maximo box*/
   padding-top: 25px;
+  overflow: visible;
 }
