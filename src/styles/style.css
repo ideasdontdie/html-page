@@ -62,14 +62,14 @@ button.accordion-header {
 
 .accordion-body {
   opacity: 0;
-  max-height: 0;
+  max-height: auto;
   transition: opacity 0.15s ease, max-height 0.15s ease;
   padding-top: 0;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .accordion-body.active {
   opacity: 1;
-  max-height: 150px; /*tamanho maximo box*/
+  max-height: auto; /*tamanho maximo box*/
   padding-top: 25px;
 }
