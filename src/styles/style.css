@@ -60,6 +60,11 @@ button.accordion-header {
   width: 99%;
 }
 
+.accordion-header span {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .accordion-body {
   opacity: 0;
   max-height: auto;
