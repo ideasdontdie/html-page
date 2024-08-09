@@ -19,20 +19,20 @@
   opacity: 0.35;
 }
 
-.jet-image {
-  margin: auto;
-  display: block;
-  width: 33%;
-  height: 33%;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
 .content {
   position: relative;
   z-index: 1; /*elementos acima do bg*/
   color: #fff;
   text-align: center;
+}
+
+.jet-image {
+  margin: auto;
+  display: block;
+  width: 40%;
+  height: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 * {
